@@ -1,0 +1,482 @@
+/* CSS - Settings
+ *
+ * @author Peter Walton
+ */
+
+html {
+  box-sizing: border-box;
+  font-size: 16pt;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  margin: 0rem;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+
+  /* background-image: url("./img/Health.png");
+  background-repeat: repeat; */
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(0, 0%, 75%);
+  width: 100%;
+  height: 3.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comp-name1 {
+  color: red;
+  margin-left: 1.2rem;
+}
+
+.comp-name2 {
+  color: green;
+}
+
+.comp-name1,
+.comp-name2 {
+  position: relative;
+  top: -0.7rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.smile {
+  position: relative;
+  top: -0.56rem;
+  height: auto;
+  width: 1.4rem;
+  margin-left: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.logon {
+  position: relative;
+  top: -0.45rem;
+  margin-right: 1.2rem;
+}
+
+.runner {
+  position: relative;
+  top: 0.1rem;
+  left: -2rem;
+  height: auto;
+  width: 2rem;
+}
+
+.logout {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.message-bar {
+  padding: 0.5rem;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.left-panel {
+  width: 23%;
+}
+.right-panel {
+  width: 75%;
+}
+
+.nav {
+  margin-top: 0rem;
+  height: 2rem;
+  background-color: hsl(0, 0%, 55%);
+}
+
+.nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 1.8rem;
+  position: relative;
+  top: 0.3rem;
+}
+
+.nav li {
+  color: black;
+  display: inline;
+  list-style: none;
+  font-size: 0.6rem;
+  margin-right: 0rem;
+  height: 100%;
+}
+
+.nav li {
+  margin-right: 0rem;
+}
+
+.nav-btn {
+  position: relative;
+  top: -0.2rem;
+  height: 80%;
+  font-size: 0.75rem;
+  background-color: hsl(0, 0%, 55%);
+  width: 15%;
+  margin: 0.2rem;
+}
+
+.nav-btn:hover {
+  height: 75%;
+  background-color: rgb(140, 160, 140);
+  width: 15%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5rem 8rem;
+  margin-bottom: 0.5rem;
+  column-gap: 0.6rem;
+}
+
+.date-grid {
+  display: grid;
+  grid-template-columns: 3.2rem 8rem;
+}
+
+.date-label {
+  margin-left: 0.6rem;
+  font-weight: bold;
+}
+
+.physio-list {
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+}
+
+.grid-item1,
+.grid-item3,
+.grid-item5 {
+  text-align: right;
+}
+
+input.login {
+  width: 4rem;
+  height: 1.5rem;
+  font-size: 0.9rem;
+  margin: 0.2rem;
+}
+
+.logon-form,
+.register-form {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30rem;
+  padding: 1rem;
+}
+
+.register-click {
+  font-size: 0.8rem;
+  margin-left: 1.8rem;
+}
+
+.message {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.add-btn {
+  flex: 1;
+  display: grid;
+  place-content: center;
+  font-size: 1.5rem;
+}
+
+.physio-list {
+  margin-left: 0.3rem;
+}
+
+ul {
+  padding-left: 0.3rem;
+  list-style-type: none;
+}
+
+.physio-list ul {
+  width: 90%;
+}
+
+.app-list li {
+  list-style: none;
+  display: inline;
+}
+
+.physios-name-panel,
+.appointment-panel {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: hsl(210, 25%, 83%);
+}
+
+.appointment-panel {
+  background-color: rgb(221, 217, 231);
+  width: 97.5%;
+}
+
+.appointment-grid {
+  display: grid;
+  grid-template-columns: 25% 12% 20% 15% 1fr;
+  grid-template-rows: 2;
+}
+
+.appointment-btn-container {
+  padding-top: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: 0.8rem;
+}
+
+.appointment {
+  width: 4.5rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  margin: 0.3rem;
+  background-color: hsl(120, 100%, 90%);
+  border-radius: 0.5rem;
+}
+
+.sm-appointment {
+  width: 3.5rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  margin: 0.3rem;
+  background-color: hsl(120, 100%, 90%);
+  border-radius: 0.5rem;
+}
+
+.grid-date {
+  font-weight: bold;
+}
+
+.grid-item-lbl {
+  text-align: right;
+  margin-right: 0.4rem;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.date-only-pick {
+  width: 60%;
+  font-size: 0.85rem;
+}
+
+.physioHead {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.physioLbl {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.appointment-list {
+  font-size: 0.6rem;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.date-picker li {
+  display: block;
+}
+
+.add-appointment-grid {
+  display: grid;
+  grid-template-columns: 10% 15% 14% 12% 20% 1fr;
+  grid-template-rows: 2;
+}
+
+.add-appointment-panel {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border: 3px double black;
+  border-radius: 5%;
+  background-color: hsl(243, 24%, 67%);
+  width: 97%;
+  margin-bottom: 1rem;
+}
+
+.error-box {
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  border: 3px double black;
+  border-radius: 5%;
+  background-color: hsl(8, 61%, 72%);
+  width: 97%;
+  margin-bottom: 0.5rem;
+}
+
+/* Media start */
+
+@media screen and (max-width: 1100px) {
+  .appointment-panel,
+  .add-appointment-panel {
+    font-size: 0.7rem;
+  }
+
+  .appointment {
+    font-size: 0.7rem;
+  }
+
+  .add-appointment-grid {
+    display: grid;
+    grid-template-columns: 16% 1fr 16% 1fr;
+    grid-template-rows: 3;
+  }
+
+  .date-only-pick {
+    font-size: 0.7rem;
+  }
+
+  .physioLbl {
+    font-size: 1rem;
+    margin-left: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .appointment-grid {
+    grid-template-columns: 30% 1fr;
+    grid-template-rows: 6;
+  }
+
+  .add-appointment-grid {
+    grid-template-columns: 20% 1fr;
+    grid-template-rows: 6;
+  }
+
+  .grid-date,
+  .grid-space {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .nav-btn {
+    position: relative;
+    top: -0.2rem;
+    height: 80%;
+    font-size: 0.6rem;
+    background-color: hsl(0, 0%, 55%);
+    width: 15%;
+    margin: 0.1rem;
+  }
+
+  .logout {
+    font-size: 1.5rem;
+  }
+
+  .message-bar {
+    padding: 0.3rem;
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 0.7rem;
+  }
+
+  .grid-item1,
+  .grid-item5 {
+    font-size: 0.7rem;
+    margin-top: 0.35rem;
+  }
+
+  .grid-item1,
+  .grid-item3,
+  .grid-item5 {
+    font-size: 0.7rem;
+    margin-top: 0.34rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left-panel {
+    width: 95%;
+  }
+  .right-panel {
+    width: 95%;
+  }
+
+  .comp-name1,
+  .comp-name2 {
+    top: -0.8rem;
+    font-size: 1.1rem;
+  }
+
+  .comp-name1 {
+    margin-left: 0.8rem;
+  }
+
+  .runner {
+    left: -1rem;
+    width: 1.9rem;
+  }
+
+  .smile {
+    position: relative;
+    top: -0.55rem;
+    height: auto;
+    width: 1.3rem;
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .nav-btn {
+    position: relative;
+    top: -0.2rem;
+    height: 80%;
+    font-size: 0.55rem;
+    background-color: hsl(0, 0%, 55%);
+    width: 20%;
+    margin: 0.1rem;
+  }
+
+  .physioLbl {
+    font-size: 0.9rem;
+    margin-left: 0.4rem;
+  }
+
+  .main-date-picker {
+    width: 80%;
+  }
+
+  .appointment {
+    width: 3.7rem;
+    height: 1.2rem;
+    font-size: 0.8rem;
+    margin: 0.3rem;
+    background-color: hsl(120, 100%, 90%);
+    border-radius: 0.5rem;
+  }
+}

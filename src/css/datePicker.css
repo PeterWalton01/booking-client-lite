@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px) {
+  .react-datepicker {
+    font-size: 0.6rem !important;
+  }
+
+  .react-datepicker__current-month {
+    font-size: 0.6rem !important;
+  }
+
+  .react-datepicker__header {
+    padding-top: 6px !important;
+  }
+
+  .react-datepicker__navigation {
+    top: 6px !important;
+  }
+
+  .react-datepicker__day-name,
+  .react-datepicker__day {
+    margin: 0.1rem !important;
+  }
+}
