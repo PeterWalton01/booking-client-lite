@@ -105,6 +105,7 @@ a {
   margin-top: 0rem;
   height: 2rem;
   background-color: hsl(0, 0%, 55%);
+  margin-bottom: 0.1rem;
 }
 
 .nav ul {
